@@ -5,7 +5,7 @@ let res = document.querySelector('#tasks');
 // document.forms[0].addEventListener('submit' , e => e.preventDefault());
 txtInput.addEventListener('keypress' , e => {
     if(e.key === 'Enter') {
-        e.preventDefault()
+        e.preventDefault();
         sbmt.click();
     }
 })
@@ -23,7 +23,6 @@ btns.forEach(e => {
         cursor : pointer;
         font : inherit;
         font-size: 1vw;
-
     ` 
 })
 // place holder for the input 
