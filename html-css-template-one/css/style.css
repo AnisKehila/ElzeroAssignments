@@ -1,0 +1,162 @@
+/* Declaring variables */
+    :root {
+        --main-color: #10cab7;
+    }
+/* End Declaring variables */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Small screen */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium screen */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Large screen */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* Header design */
+.header {
+    padding: 20px;
+}
+.header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.header .links ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background-color: #f6f6f6;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    z-index: 1;
+}
+.header .links ul::before {
+    content: '';
+    position: absolute;
+    top: -24px;
+    right: 4px;
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent #f6f6f6 transparent;
+}
+.header .links ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px;
+    display: block;
+    transition: 0.3s;
+}
+.header .links ul li:not(:last-child) {
+    border-bottom: 1px solid #DDD;
+
+}
+.header .links ul li:hover a{
+    padding-left: 22px;
+}
+.logo {
+    width: 60px;
+}
+.burger span{
+    background-color: #333;
+    height: 2px;
+    width: 30px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.links .burger span:nth-child(2) {
+    width: 20px;
+}
+.links:hover span:nth-child(2){
+    width: 30px;
+}
+.links:hover ul {
+    display: block;
+}
+.burger {
+    width: 34px;
+    max-height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.links {
+    position: relative;
+}
+/* End header design */
+
+/* Start image section design */
+.img-section {
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    margin-top: 0;
+    position: relative;
+}
+.img-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 340px;
+    max-width: 100%;
+    line-height: 1.9;
+
+}
+.img-txt h1 {
+    margin: 0;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 50px;
+}
+.img-txt p {
+    margin: 0;
+    font-size: 19px;
+}
+/* End image section design */
+/* Start features design */
+.features {
+    background-color: #f6f6f6;
+    padding: 30px 0 30px 0 ;
+}
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+
+}
+/* End features design */
