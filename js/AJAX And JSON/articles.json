@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "author": "lary",
+        "title": "Sharks",
+        "category":"animals",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita temporibus aspernatur laborum nostrum adipisci laboriosam suscipit, praesentium aperiam iste. Quo incidunt iste facere autem dolor eius quia accusamus possimus."
+    },
+    {
+        "id": 2,
+        "author": "anis",
+        "title": "Lions",
+        "category":"animals",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita temporibus aspernatur laborum nostrum adipisci laboriosam suscipit, praesentium aperiam iste. Quo incidunt iste facere autem dolor eius quia accusamus possimus."
+    },
+    {
+        "id": 3,
+        "author": "marlyne",
+        "title": "Beaches",
+        "category":"vacations",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita temporibus aspernatur laborum nostrum adipisci laboriosam suscipit, praesentium aperiam iste. Quo incidunt iste facere autem dolor eius quia accusamus possimus."
+    },
+    {
+        "id": 4,
+        "author": "lary",
+        "title": "cats",
+        "category":"animals",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita temporibus aspernatur laborum nostrum adipisci laboriosam suscipit, praesentium aperiam iste. Quo incidunt iste facere autem dolor eius quia accusamus possimus."
+    },
+    {
+        "id": 5,
+        "author": "anis",
+        "title": "Birds",
+        "category":"animals",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic expedita temporibus aspernatur laborum nostrum adipisci laboriosam suscipit, praesentium aperiam iste. Quo incidunt iste facere autem dolor eius quia accusamus possimus."
+    }
+]
